@@ -9,12 +9,14 @@ using std::cout;
 void HoughLineTransform();
 void HoughCircleTransform();
 void BackProjection();
+void camshiftdemo();
 int main()
 {
 	
 	//HoughLineTransform();
 	//HoughCircleTransform();
-	BackProjection();
+	//BackProjection();
+	camshiftdemo();
 	return 0;
 
 }

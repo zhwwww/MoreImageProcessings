@@ -154,6 +154,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BackProjection.cpp" />
+    <ClCompile Include="camshiftdemo.cpp" />
     <ClCompile Include="HoughTransform.cpp" />
     <ClCompile Include="MoreImageProcessings.cpp" />
   </ItemGroup>
