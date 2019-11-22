@@ -10,13 +10,19 @@ void HoughLineTransform();
 void HoughCircleTransform();
 void BackProjection();
 void camshiftdemo();
+void TemplateMatching();
+void FindingContours();
+void ConvexHull();
 int main()
 {
 	
 	//HoughLineTransform();
 	//HoughCircleTransform();
 	//BackProjection();
-	camshiftdemo();
+	//camshiftdemo();
+	//TemplateMatching();
+	//FindingContours();
+	ConvexHull();
 	return 0;
 
 }

@@ -155,8 +155,11 @@
   <ItemGroup>
     <ClCompile Include="BackProjection.cpp" />
     <ClCompile Include="camshiftdemo.cpp" />
+    <ClCompile Include="FindingContours.cpp" />
     <ClCompile Include="HoughTransform.cpp" />
     <ClCompile Include="MoreImageProcessings.cpp" />
+    <ClCompile Include="TemplateMatching.cpp" />
+    <ClCompile Include="ConvexHull.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

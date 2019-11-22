@@ -15,16 +15,16 @@ To make it simpler, for Back Projection, you calculate the
 histogram model of a feature and then use it to find this feature
 in an image.
 */
-Mat hsv;
-Mat hsv2;
-Mat mask;
-Mat src;
-Mat frame;
-int up = 30, low = 30;
+static Mat hsv;
+static Mat hsv2;
+static Mat mask;
+static Mat src;
+static Mat frame;
+static int up = 30, low = 30;
 
 
-void BackProjOps(int val0, int val1);
-void PickPoint(int event, int x, int y, int, void*);
+static void BackProjOps(int val0, int val1);
+static void PickPoint(int event, int x, int y, int, void*);
 void BackProjection() {
 	VideoCapture cap(0);
 	cap >> src;
@@ -53,7 +53,7 @@ void BackProjection() {
 	}
 }
 
-void BackProjOps(int val0, int val1) {
+static void BackProjOps(int val0, int val1) {
 	Mat hist;
 	int histSize[2];
 	histSize[0] = val0;
@@ -93,7 +93,7 @@ void BackProjOps(int val0, int val1) {
 
 }
 
-void PickPoint(int event, int x, int y, int , void* ) {
+static void PickPoint(int event, int x, int y, int , void* ) {
 
 	if (event != EVENT_LBUTTONDOWN)
 	{

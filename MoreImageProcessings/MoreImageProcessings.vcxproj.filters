@@ -27,5 +27,14 @@
     <ClCompile Include="camshiftdemo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TemplateMatching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindingContours.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexHull.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
