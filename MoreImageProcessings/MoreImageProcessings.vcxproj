@@ -157,6 +157,7 @@
     <ClCompile Include="camshiftdemo.cpp" />
     <ClCompile Include="FindingContours.cpp" />
     <ClCompile Include="HoughTransform.cpp" />
+    <ClCompile Include="ImageSegmentation.cpp" />
     <ClCompile Include="MoreImageProcessings.cpp" />
     <ClCompile Include="TemplateMatching.cpp" />
     <ClCompile Include="ConvexHull.cpp" />

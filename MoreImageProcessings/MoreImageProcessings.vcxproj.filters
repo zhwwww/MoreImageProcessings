@@ -36,5 +36,8 @@
     <ClCompile Include="ConvexHull.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ImageSegmentation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

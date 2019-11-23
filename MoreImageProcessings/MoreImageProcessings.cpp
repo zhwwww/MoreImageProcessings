@@ -13,6 +13,7 @@ void camshiftdemo();
 void TemplateMatching();
 void FindingContours();
 void ConvexHull();
+void ImageSegmentation();
 int main()
 {
 	
@@ -22,7 +23,8 @@ int main()
 	//camshiftdemo();
 	//TemplateMatching();
 	//FindingContours();
-	ConvexHull();
+	//ConvexHull();
+	ImageSegmentation();
 	return 0;
 
 }
