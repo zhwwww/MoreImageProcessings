@@ -39,5 +39,14 @@
     <ClCompile Include="ImageSegmentation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Out_of_focusDeblurFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionDeblurFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeriodicNoiseFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

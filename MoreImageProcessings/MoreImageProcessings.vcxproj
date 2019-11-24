@@ -159,6 +159,9 @@
     <ClCompile Include="HoughTransform.cpp" />
     <ClCompile Include="ImageSegmentation.cpp" />
     <ClCompile Include="MoreImageProcessings.cpp" />
+    <ClCompile Include="MotionDeblurFilter.cpp" />
+    <ClCompile Include="Out_of_focusDeblurFilter.cpp" />
+    <ClCompile Include="PeriodicNoiseFilter.cpp" />
     <ClCompile Include="TemplateMatching.cpp" />
     <ClCompile Include="ConvexHull.cpp" />
   </ItemGroup>

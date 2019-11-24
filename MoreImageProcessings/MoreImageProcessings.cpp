@@ -14,6 +14,9 @@ void TemplateMatching();
 void FindingContours();
 void ConvexHull();
 void ImageSegmentation();
+void Out_of_focusDeblurFilter();
+void MotionDeblurFilter();
+void PeriodNoiseFilter();
 int main()
 {
 	
@@ -24,7 +27,10 @@ int main()
 	//TemplateMatching();
 	//FindingContours();
 	//ConvexHull();
-	ImageSegmentation();
+	//ImageSegmentation();
+	//Out_of_focusDeblurFilter();
+	//MotionDeblurFilter();
+	PeriodNoiseFilter();
 	return 0;
 
 }
